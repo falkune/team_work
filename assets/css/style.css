@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: brown; */
+}
+
+.form{
+    width: 700px;
+    margin: 200px auto;
+}
+
+.container{
+    margin: 100px auto;
+}
+
+.bouton{
+    height: 100px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.form-select{
+    max-width: 300px;
+}
