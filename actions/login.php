@@ -24,7 +24,7 @@ if(isset($_POST['connexion'])){
                 // verifier le mot de passe
                 if(password_verify($_POST['password'], $user['password'])){
                     // on connecte l'utilisateur en creant des variables de session
-                    $_SESSION['id'] = $user['id'];
+                    $_SESSION['id'] = $user['id_user'];
                     $_SESSION['role'] = $user['role'];
                     // rediriger vers le dashboard
                     unset($_SESSION['login_error']);
